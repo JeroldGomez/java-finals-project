@@ -38,6 +38,7 @@ public class FinalsProject {
 
                 switch (number) {
                     case 1:
+
                         System.out.println("\nYou choose Activity 1\n");
 
                         System.out.println("Jerold Gomez, ");
@@ -55,7 +56,9 @@ public class FinalsProject {
                         System.out.println("\n");
                         System.out.println("with GPA pf 1.29");
                         break;
+
                     case 2:
+                    
                         System.out.println("\nYou choose Activity 2");
 
                         Scanner t = new Scanner(System.in);
@@ -85,9 +88,10 @@ public class FinalsProject {
                         System.out.println("Weight: " + weight +"kg");
                         System.out.println("Height: " + height+"cm");
                         System.out.println("Contact Number: " + cm);
-
                         break;
+
                     case 3:
+
                         System.out.println("\nYou choose Activity 3\n");
 
                         Scanner inputNumber = new Scanner(System.in);
@@ -109,7 +113,9 @@ public class FinalsProject {
                         System.out.println("Value of the first number: " + int1 );
                         System.out.println("Value of the second number: " + int2);
                         break;
+
                     case 4:
+
                         System.out.println("\nYou choose Activity 4\n");
 
                         class Student {
@@ -140,13 +146,13 @@ public class FinalsProject {
                         }
                         Student studentInfo = new Student();
                         studentInfo.nameOutput();
-
                         break;
-                
+
                     default:
                         System.out.println("Only limited to 4");
                         break;
                 }
+                
                 System.out.print("\nDo you want to see other activities? y/n: ");
                 choice = input.next().charAt(0);
 
@@ -154,6 +160,7 @@ public class FinalsProject {
             
 
         } else if (term.equals("M")) {
+            
             do {
                 System.out.print("\n-- INSTRUCTION #2 -- \n\n");
                 System.out.print("Choose what activity that will be displayed\n");
@@ -163,6 +170,7 @@ public class FinalsProject {
 
                 switch (number) {
                     case 5:
+
                         System.out.println("\nYou choose Activity 5\n");
                         System.out.println("-- Bitwise Operator --\n");
         
@@ -251,7 +259,9 @@ public class FinalsProject {
                         System.out.println(--number1);
 
                         break;
+
                     case 6:
+
                         System.out.println("\nYou choose Activity 6\n");
 
                         float side, area;
@@ -278,9 +288,10 @@ public class FinalsProject {
                         
                         double rec_area = rec_width *rec_height;
                         System.out.println("Area of Rectangle = " + rec_area); 
-
                         break;
+
                     case 7:
+
                         System.out.println("\nYou choose Activity 7\n");
 
                         Scanner inputscan = new Scanner(System.in);
@@ -305,11 +316,14 @@ public class FinalsProject {
                         System.out.println("Only limited to 3");
                         break;
                 }
+
                 System.out.print("\nDo you want to see other activities? y/n: ");
                 choice = input.next().charAt(0);
 
             } while (choice == 'Y' || choice == 'y');
+
         } else if (term.equals("F")) {
+            
             do {
                 System.out.print("\n-- INSTRUCTION #2 -- \n\n");
                 System.out.print("Choose what activity that will be displayed\n");
@@ -319,6 +333,7 @@ public class FinalsProject {
 
                 switch (number) {
                     case 8:
+                    
                         System.out.println("\nYou choose Activity 8\n");
                         Scanner scanner = new Scanner(System.in);
 
@@ -338,6 +353,7 @@ public class FinalsProject {
                         else
                             System.out.println("The number is odd");
                         break;
+
                     case 9:
                         System.out.println("\nYou choose Activity 9\n");
 
@@ -366,6 +382,7 @@ public class FinalsProject {
                         } else if (numberChoice == 2){
                             
                             char decision;
+                            
                             do {
                                 System.out.print("Enter the first number: ");
                                 int first_number = userInput.nextInt();
@@ -389,6 +406,7 @@ public class FinalsProject {
                         System.out.println("Only limited to 3");
                         break;
                 }
+                
                 System.out.print("\nDo you want to see other activities? y/n: ");
                 choice = input.next().charAt(0);
 
